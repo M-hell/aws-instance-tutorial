@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="rto" style={{backgroundColor:color}}>
         <div className="fixed flex flex-wrap bg-white bottom-12 justify-center gap-20 rounded-3xl inset-x-2 px-2 py-2">
-          <button onClick={()=> {setcolor("yellow")}} className="bg-yellow-200" >yellow</button>
+          <button onClick={()=> {setcolor("red")}} className="bg-red-800" >red</button>
           <button onClick={()=> {setcolor("green")}} className="bg-green-600">GREEN</button>
           <button onClick={()=> {setcolor("blue")}} className="bg-blue-600">BLUE</button>
           <button onClick={pink} className="bg-pink-600">PINK</button>
